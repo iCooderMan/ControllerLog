@@ -18,6 +18,7 @@ typedef enum : NSUInteger {
 ```
 
 3. 宏
+
 ```
 #define _Flag_NSLog(fmt,...) {                                        \
 do                                                                  \
@@ -37,7 +38,11 @@ while (0);                                                          \
 
 ```
 
+
+
 4. 生命周期
+
+
 ```
 - (void)viewDidAppear:(BOOL)animated {
     
@@ -69,7 +74,11 @@ while (0);                                                          \
 }
 
 ```
+
+
 5. 相关方法
+
+
 ```
 #pragma mark - Debug message.
 - (void)debugWithString:(NSString *)string debugTag:(EDebugTag)tag {
@@ -115,4 +124,6 @@ while (0);                                                          \
 }
 
 ```
+
+
 ![控制器Log](http://git.oschina.net/uploads/images/2016/0825/165438_1c0581a5_727503.png "在这里输入图片标题")
